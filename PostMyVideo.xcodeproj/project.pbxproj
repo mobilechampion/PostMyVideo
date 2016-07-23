@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A00528C1BB7A86300543178 /* TextRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A00528B1BB7A86300543178 /* TextRecordViewController.swift */; };
+		6AA9CD021BBCBF4E006591D9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA9CD011BBCBF4E006591D9 /* MediaPlayer.framework */; };
+		6AA9CD051BBCE2FF006591D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA9CD031BBCE2FF006591D9 /* AVFoundation.framework */; };
+		6AA9CD081BBD1853006591D9 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AA9CD071BBD1853006591D9 /* digital-7 (italic).ttf */; };
+		6AD5CFA71BB5A7A70043199E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CFA61BB5A7A70043199E /* AppDelegate.swift */; };
+		6AD5CFA91BB5A7A70043199E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CFA81BB5A7A70043199E /* ViewController.swift */; };
+		6AD5CFAC1BB5A7A70043199E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFAA1BB5A7A70043199E /* Main.storyboard */; };
+		6AD5CFAE1BB5A7A70043199E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFAD1BB5A7A70043199E /* Images.xcassets */; };
+		6AD5CFB11BB5A7A70043199E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFAF1BB5A7A70043199E /* LaunchScreen.xib */; };
+		6AD5CFBD1BB5A7A70043199E /* PostMyVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CFBC1BB5A7A70043199E /* PostMyVideoTests.swift */; };
+		6AD5CFCA1BB5B6AF0043199E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFC91BB5B6AF0043199E /* background.png */; };
+		6AD5CFD71BB6425F0043199E /* fb_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFD61BB6425F0043199E /* fb_btn.png */; };
+		6AD5CFD91BB644A70043199E /* or_separate.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFD81BB644A70043199E /* or_separate.png */; };
+		6AD5CFDB1BB646CB0043199E /* secured_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFDA1BB646CB0043199E /* secured_login.png */; };
+		6AD5CFDD1BB6478B0043199E /* cancel_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFDC1BB6478B0043199E /* cancel_btn.png */; };
+		6AD5CFDF1BB64A990043199E /* up_down_btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFDE1BB64A990043199E /* up_down_btn_bg.png */; };
+		6AD5CFE31BB64D410043199E /* google+_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFE01BB64D410043199E /* google+_btn.png */; };
+		6AD5CFE41BB64D410043199E /* twitter_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFE11BB64D410043199E /* twitter_btn.png */; };
+		6AD5CFE51BB64D410043199E /* yahoo_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFE21BB64D410043199E /* yahoo_btn.png */; };
+		6AD5CFED1BB67E260043199E /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFEA1BB67E260043199E /* photo.png */; };
+		6AD5CFEE1BB67E260043199E /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFEB1BB67E260043199E /* sheet.png */; };
+		6AD5CFEF1BB67E260043199E /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFEC1BB67E260043199E /* video.png */; };
+		6AD5CFF11BB680BC0043199E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFF01BB680BC0043199E /* arrow.png */; };
+		6AD5CFF41BB683450043199E /* dollar_mark_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFF21BB683450043199E /* dollar_mark_btn.png */; };
+		6AD5CFF51BB683450043199E /* mark_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFF31BB683450043199E /* mark_btn.png */; };
+		6AD5CFF71BB6851D0043199E /* arrow_inverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD5CFF61BB6851D0043199E /* arrow_inverse.png */; };
+		6AD5CFFD1BB689C90043199E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CFFC1BB689C90043199E /* AddViewController.swift */; };
+		6AD5CFFF1BB689DF0043199E /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5CFFE1BB689DF0043199E /* ShoppingCartViewController.swift */; };
+		6AD5D0011BB6AB1E0043199E /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD5D0001BB6AB1E0043199E /* TutorialPageViewController.swift */; };
+		6AD5D0031BB6E1CA0043199E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5D0021BB6E1CA0043199E /* MobileCoreServices.framework */; };
+		6AD5D0051BB6E1D80043199E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5D0041BB6E1D80043199E /* UIKit.framework */; };
+		6AD5D0071BB6E1EC0043199E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5D0061BB6E1EC0043199E /* CoreData.framework */; };
+		F4EA81821BCB474F00CAA0FE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EA817F1BCB474F00CAA0FE /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		F4EA81831BCB474F00CAA0FE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EA81801BCB474F00CAA0FE /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		F4EA81841BCB474F00CAA0FE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EA81811BCB474F00CAA0FE /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD5CFB71BB5A7A70043199E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD5CF991BB5A7A70043199E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD5CFA01BB5A7A70043199E;
+			remoteInfo = PostMyVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A00528B1BB7A86300543178 /* TextRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRecordViewController.swift; sourceTree = "<group>"; };
+		6AA9CD011BBCBF4E006591D9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6AA9CD031BBCE2FF006591D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6AA9CD041BBCE2FF006591D9 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6AA9CD071BBD1853006591D9 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7 (italic).ttf"; path = "CustomFonts/digital-7/digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		6AD5CFA11BB5A7A70043199E /* PostMyVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostMyVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD5CFA51BB5A7A70043199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD5CFA61BB5A7A70043199E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AD5CFA81BB5A7A70043199E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AD5CFAB1BB5A7A70043199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AD5CFAD1BB5A7A70043199E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AD5CFB01BB5A7A70043199E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6AD5CFB61BB5A7A70043199E /* PostMyVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostMyVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD5CFBB1BB5A7A70043199E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD5CFBC1BB5A7A70043199E /* PostMyVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMyVideoTests.swift; sourceTree = "<group>"; };
+		6AD5CFC91BB5B6AF0043199E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		6AD5CFD61BB6425F0043199E /* fb_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_btn.png; path = Resources/fb_btn.png; sourceTree = "<group>"; };
+		6AD5CFD81BB644A70043199E /* or_separate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = or_separate.png; path = Resources/or_separate.png; sourceTree = "<group>"; };
+		6AD5CFDA1BB646CB0043199E /* secured_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = secured_login.png; path = Resources/secured_login.png; sourceTree = "<group>"; };
+		6AD5CFDC1BB6478B0043199E /* cancel_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel_btn.png; path = Resources/cancel_btn.png; sourceTree = "<group>"; };
+		6AD5CFDE1BB64A990043199E /* up_down_btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up_down_btn_bg.png; path = Resources/up_down_btn_bg.png; sourceTree = "<group>"; };
+		6AD5CFE01BB64D410043199E /* google+_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google+_btn.png"; path = "Resources/google+_btn.png"; sourceTree = "<group>"; };
+		6AD5CFE11BB64D410043199E /* twitter_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_btn.png; path = Resources/twitter_btn.png; sourceTree = "<group>"; };
+		6AD5CFE21BB64D410043199E /* yahoo_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yahoo_btn.png; path = Resources/yahoo_btn.png; sourceTree = "<group>"; };
+		6AD5CFEA1BB67E260043199E /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo.png; path = Resources/photo.png; sourceTree = "<group>"; };
+		6AD5CFEB1BB67E260043199E /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheet.png; path = Resources/sheet.png; sourceTree = "<group>"; };
+		6AD5CFEC1BB67E260043199E /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video.png; path = Resources/video.png; sourceTree = "<group>"; };
+		6AD5CFF01BB680BC0043199E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = Resources/arrow.png; sourceTree = "<group>"; };
+		6AD5CFF21BB683450043199E /* dollar_mark_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dollar_mark_btn.png; path = Resources/dollar_mark_btn.png; sourceTree = "<group>"; };
+		6AD5CFF31BB683450043199E /* mark_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mark_btn.png; path = Resources/mark_btn.png; sourceTree = "<group>"; };
+		6AD5CFF61BB6851D0043199E /* arrow_inverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_inverse.png; path = Resources/arrow_inverse.png; sourceTree = "<group>"; };
+		6AD5CFFC1BB689C90043199E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6AD5CFFE1BB689DF0043199E /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		6AD5D0001BB6AB1E0043199E /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		6AD5D0021BB6E1CA0043199E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6AD5D0041BB6E1D80043199E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AD5D0061BB6E1EC0043199E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4EA817F1BCB474F00CAA0FE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = PostMyVideo/Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F4EA81801BCB474F00CAA0FE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = PostMyVideo/Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F4EA81811BCB474F00CAA0FE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = PostMyVideo/Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD5CF9E1BB5A7A70043199E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EA81841BCB474F00CAA0FE /* FBSDKShareKit.framework in Frameworks */,
+				6AA9CD051BBCE2FF006591D9 /* AVFoundation.framework in Frameworks */,
+				F4EA81821BCB474F00CAA0FE /* FBSDKCoreKit.framework in Frameworks */,
+				6AA9CD021BBCBF4E006591D9 /* MediaPlayer.framework in Frameworks */,
+				6AD5D0071BB6E1EC0043199E /* CoreData.framework in Frameworks */,
+				F4EA81831BCB474F00CAA0FE /* FBSDKLoginKit.framework in Frameworks */,
+				6AD5D0051BB6E1D80043199E /* UIKit.framework in Frameworks */,
+				6AD5D0031BB6E1CA0043199E /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD5CFB31BB5A7A70043199E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD5CF981BB5A7A70043199E = {
+			isa = PBXGroup;
+			children = (
+				6AD5D0081BB6E1F90043199E /* Frameworks */,
+				6AD5CFA31BB5A7A70043199E /* PostMyVideo */,
+				6AD5CFB91BB5A7A70043199E /* PostMyVideoTests */,
+				6AD5CFA21BB5A7A70043199E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD5CFA21BB5A7A70043199E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFA11BB5A7A70043199E /* PostMyVideo.app */,
+				6AD5CFB61BB5A7A70043199E /* PostMyVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD5CFA31BB5A7A70043199E /* PostMyVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFC81BB5B6A30043199E /* Resources */,
+				6AD5CFA61BB5A7A70043199E /* AppDelegate.swift */,
+				6AD5CFA81BB5A7A70043199E /* ViewController.swift */,
+				6AD5CFFC1BB689C90043199E /* AddViewController.swift */,
+				6AD5CFFE1BB689DF0043199E /* ShoppingCartViewController.swift */,
+				6A00528B1BB7A86300543178 /* TextRecordViewController.swift */,
+				6AD5CFAA1BB5A7A70043199E /* Main.storyboard */,
+				6AD5CFAD1BB5A7A70043199E /* Images.xcassets */,
+				6AD5CFAF1BB5A7A70043199E /* LaunchScreen.xib */,
+				6AD5CFA41BB5A7A70043199E /* Supporting Files */,
+			);
+			path = PostMyVideo;
+			sourceTree = "<group>";
+		};
+		6AD5CFA41BB5A7A70043199E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFA51BB5A7A70043199E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD5CFB91BB5A7A70043199E /* PostMyVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFBC1BB5A7A70043199E /* PostMyVideoTests.swift */,
+				6AD5CFBA1BB5A7A70043199E /* Supporting Files */,
+			);
+			path = PostMyVideoTests;
+			sourceTree = "<group>";
+		};
+		6AD5CFBA1BB5A7A70043199E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFBB1BB5A7A70043199E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD5CFC81BB5B6A30043199E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5CFF61BB6851D0043199E /* arrow_inverse.png */,
+				6AD5CFF21BB683450043199E /* dollar_mark_btn.png */,
+				6AD5CFF31BB683450043199E /* mark_btn.png */,
+				6AD5CFF01BB680BC0043199E /* arrow.png */,
+				6AD5CFEA1BB67E260043199E /* photo.png */,
+				6AD5CFEB1BB67E260043199E /* sheet.png */,
+				6AD5CFEC1BB67E260043199E /* video.png */,
+				6AD5CFE01BB64D410043199E /* google+_btn.png */,
+				6AD5CFE11BB64D410043199E /* twitter_btn.png */,
+				6AD5CFE21BB64D410043199E /* yahoo_btn.png */,
+				6AD5CFDE1BB64A990043199E /* up_down_btn_bg.png */,
+				6AD5CFDC1BB6478B0043199E /* cancel_btn.png */,
+				6AD5CFDA1BB646CB0043199E /* secured_login.png */,
+				6AD5CFD81BB644A70043199E /* or_separate.png */,
+				6AD5CFD61BB6425F0043199E /* fb_btn.png */,
+				6AD5CFCD1BB63A420043199E /* CustomFont */,
+				6AD5CFC91BB5B6AF0043199E /* background.png */,
+				6AD5D0001BB6AB1E0043199E /* TutorialPageViewController.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6AD5CFCD1BB63A420043199E /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9CD071BBD1853006591D9 /* digital-7 (italic).ttf */,
+			);
+			name = CustomFont;
+			sourceTree = "<group>";
+		};
+		6AD5D0081BB6E1F90043199E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA817F1BCB474F00CAA0FE /* FBSDKCoreKit.framework */,
+				F4EA81801BCB474F00CAA0FE /* FBSDKLoginKit.framework */,
+				F4EA81811BCB474F00CAA0FE /* FBSDKShareKit.framework */,
+				6AA9CD031BBCE2FF006591D9 /* AVFoundation.framework */,
+				6AA9CD041BBCE2FF006591D9 /* AVKit.framework */,
+				6AA9CD011BBCBF4E006591D9 /* MediaPlayer.framework */,
+				6AD5D0061BB6E1EC0043199E /* CoreData.framework */,
+				6AD5D0041BB6E1D80043199E /* UIKit.framework */,
+				6AD5D0021BB6E1CA0043199E /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD5CFA01BB5A7A70043199E /* PostMyVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD5CFC01BB5A7A70043199E /* Build configuration list for PBXNativeTarget "PostMyVideo" */;
+			buildPhases = (
+				6AD5CF9D1BB5A7A70043199E /* Sources */,
+				6AD5CF9E1BB5A7A70043199E /* Frameworks */,
+				6AD5CF9F1BB5A7A70043199E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostMyVideo;
+			productName = PostMyVideo;
+			productReference = 6AD5CFA11BB5A7A70043199E /* PostMyVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AD5CFB51BB5A7A70043199E /* PostMyVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD5CFC31BB5A7A70043199E /* Build configuration list for PBXNativeTarget "PostMyVideoTests" */;
+			buildPhases = (
+				6AD5CFB21BB5A7A70043199E /* Sources */,
+				6AD5CFB31BB5A7A70043199E /* Frameworks */,
+				6AD5CFB41BB5A7A70043199E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD5CFB81BB5A7A70043199E /* PBXTargetDependency */,
+			);
+			name = PostMyVideoTests;
+			productName = PostMyVideoTests;
+			productReference = 6AD5CFB61BB5A7A70043199E /* PostMyVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD5CF991BB5A7A70043199E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = gold;
+				TargetAttributes = {
+					6AD5CFA01BB5A7A70043199E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = AM2TPP67VZ;
+					};
+					6AD5CFB51BB5A7A70043199E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = AM2TPP67VZ;
+						TestTargetID = 6AD5CFA01BB5A7A70043199E;
+					};
+				};
+			};
+			buildConfigurationList = 6AD5CF9C1BB5A7A70043199E /* Build configuration list for PBXProject "PostMyVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD5CF981BB5A7A70043199E;
+			productRefGroup = 6AD5CFA21BB5A7A70043199E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD5CFA01BB5A7A70043199E /* PostMyVideo */,
+				6AD5CFB51BB5A7A70043199E /* PostMyVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD5CF9F1BB5A7A70043199E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD5CFCA1BB5B6AF0043199E /* background.png in Resources */,
+				6AD5CFEE1BB67E260043199E /* sheet.png in Resources */,
+				6AD5CFED1BB67E260043199E /* photo.png in Resources */,
+				6AD5CFF51BB683450043199E /* mark_btn.png in Resources */,
+				6AD5CFF11BB680BC0043199E /* arrow.png in Resources */,
+				6AD5CFD91BB644A70043199E /* or_separate.png in Resources */,
+				6AD5CFE51BB64D410043199E /* yahoo_btn.png in Resources */,
+				6AD5CFE41BB64D410043199E /* twitter_btn.png in Resources */,
+				6AD5CFE31BB64D410043199E /* google+_btn.png in Resources */,
+				6AD5CFD71BB6425F0043199E /* fb_btn.png in Resources */,
+				6AD5CFAC1BB5A7A70043199E /* Main.storyboard in Resources */,
+				6AA9CD081BBD1853006591D9 /* digital-7 (italic).ttf in Resources */,
+				6AD5CFDD1BB6478B0043199E /* cancel_btn.png in Resources */,
+				6AD5CFB11BB5A7A70043199E /* LaunchScreen.xib in Resources */,
+				6AD5CFF41BB683450043199E /* dollar_mark_btn.png in Resources */,
+				6AD5CFDF1BB64A990043199E /* up_down_btn_bg.png in Resources */,
+				6AD5CFEF1BB67E260043199E /* video.png in Resources */,
+				6AD5CFDB1BB646CB0043199E /* secured_login.png in Resources */,
+				6AD5CFAE1BB5A7A70043199E /* Images.xcassets in Resources */,
+				6AD5CFF71BB6851D0043199E /* arrow_inverse.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD5CFB41BB5A7A70043199E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD5CF9D1BB5A7A70043199E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD5CFA91BB5A7A70043199E /* ViewController.swift in Sources */,
+				6AD5D0011BB6AB1E0043199E /* TutorialPageViewController.swift in Sources */,
+				6A00528C1BB7A86300543178 /* TextRecordViewController.swift in Sources */,
+				6AD5CFFD1BB689C90043199E /* AddViewController.swift in Sources */,
+				6AD5CFA71BB5A7A70043199E /* AppDelegate.swift in Sources */,
+				6AD5CFFF1BB689DF0043199E /* ShoppingCartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD5CFB21BB5A7A70043199E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD5CFBD1BB5A7A70043199E /* PostMyVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD5CFB81BB5A7A70043199E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD5CFA01BB5A7A70043199E /* PostMyVideo */;
+			targetProxy = 6AD5CFB71BB5A7A70043199E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AD5CFAA1BB5A7A70043199E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD5CFAB1BB5A7A70043199E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AD5CFAF1BB5A7A70043199E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD5CFB01BB5A7A70043199E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD5CFBE1BB5A7A70043199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD5CFBF1BB5A7A70043199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD5CFC11BB5A7A70043199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PostMyVideo/Frameworks",
+				);
+				INFOPLIST_FILE = PostMyVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostMyVideo.PostMyVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+			};
+			name = Debug;
+		};
+		6AD5CFC21BB5A7A70043199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PostMyVideo/Frameworks",
+				);
+				INFOPLIST_FILE = PostMyVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PostMyVideo.PostMyVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+			};
+			name = Release;
+		};
+		6AD5CFC41BB5A7A70043199E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostMyVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PostMyVideo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostMyVideo.app/PostMyVideo";
+			};
+			name = Debug;
+		};
+		6AD5CFC51BB5A7A70043199E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: bar mu (TZU6LF228Z)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PostMyVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PostMyVideo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c856fa29-ce02-4d19-b43e-86f0672db0ac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostMyVideo.app/PostMyVideo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD5CF9C1BB5A7A70043199E /* Build configuration list for PBXProject "PostMyVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD5CFBE1BB5A7A70043199E /* Debug */,
+				6AD5CFBF1BB5A7A70043199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD5CFC01BB5A7A70043199E /* Build configuration list for PBXNativeTarget "PostMyVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD5CFC11BB5A7A70043199E /* Debug */,
+				6AD5CFC21BB5A7A70043199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD5CFC31BB5A7A70043199E /* Build configuration list for PBXNativeTarget "PostMyVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD5CFC41BB5A7A70043199E /* Debug */,
+				6AD5CFC51BB5A7A70043199E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD5CF991BB5A7A70043199E /* Project object */;
+}
